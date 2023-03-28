@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2023-03-27T14:40:53.228Z",
+    "end": "2023-03-27T14:41:26.120Z",
+    "duration": 32892
+  },
+  "results": [
+    {
+      "uuid": "20786edc-3956-4b08-accd-de78108d4608",
+      "title": "",
+      "fullFile": "cypress/integration/orangeHrmOutline.feature",
+      "file": "cypress/integration/orangeHrmOutline.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ec9c486b-8e12-4d73-8d76-00d960155f39",
+          "title": "Login Functionality of OrangeHRM with SenarioOutline",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validate the login functionality (example #1)",
+              "fullTitle": "Login Functionality of OrangeHRM with SenarioOutline Validate the login functionality (example #1)",
+              "timedOut": null,
+              "duration": 13175,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "824c73e7-ddc9-4074-9b1d-3e4d820b03f3",
+              "parentUUID": "ec9c486b-8e12-4d73-8d76-00d960155f39",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate the login functionality (example #2)",
+              "fullTitle": "Login Functionality of OrangeHRM with SenarioOutline Validate the login functionality (example #2)",
+              "timedOut": null,
+              "duration": 6508,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "84419797-8382-4cc3-9bc0-0bcc9b49b30a",
+              "parentUUID": "ec9c486b-8e12-4d73-8d76-00d960155f39",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validate the login functionality (example #3)",
+              "fullTitle": "Login Functionality of OrangeHRM with SenarioOutline Validate the login functionality (example #3)",
+              "timedOut": null,
+              "duration": 5509,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "862eec81-9f15-44de-93fc-b980ff8af66b",
+              "parentUUID": "ec9c486b-8e12-4d73-8d76-00d960155f39",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "824c73e7-ddc9-4074-9b1d-3e4d820b03f3",
+            "84419797-8382-4cc3-9bc0-0bcc9b49b30a",
+            "862eec81-9f15-44de-93fc-b980ff8af66b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 25192,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": true,
+        "html": true,
+        "json": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

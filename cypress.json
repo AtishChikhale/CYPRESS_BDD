@@ -1,0 +1,10 @@
+{
+  "testFiles": "**/*.feature",
+  "reporter": "../node_modules/mochawesome/src/mochawesome.js",
+  "reporterOptions": {
+    "overwrite": true,
+    "html": true,
+    "json": true,
+    "charts": true
+  }
+}
